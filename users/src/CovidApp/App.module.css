@@ -1,0 +1,30 @@
+body {
+background-color: #d3d3e9;}
+
+.container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+
+.title{
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 20px;
+}
+@media (max-width:970px){
+  .title{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;  }
+  
+}
+/* @media (min-width:970px){
+  .title{
+    display: none;
+  }
+  
+} */
+
